@@ -1,5 +1,20 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-checkbox-checked" viewBox="0 0 40 32">
+<path d="M32 0c0.751-1.477 2.259-2.472 4-2.472 2.47 0 4.472 2.002 4.472 4.472 0 0.729-0.174 1.417-0.484 2.025l0.012-0.025v4l-20 24c-0.574 0.337-1.264 0.536-2 0.536s-1.426-0.199-2.019-0.546l0.019 0.010-16-16c0-2.209 1.791-4 4-4v0h4l8 12 16-24z"></path>
+</symbol>
+<symbol id="icon-email-modal" viewBox="0 0 43 32">
+<path d="M37.333 0h-32l-2.667 5.333v24l2.667 2.667h32l5.333-2.667v-24l-5.333-5.333zM37.333 8l-16 10.667-16-10.667 2.667-2.667 13.333 8 13.333-8c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667c0 1.473-1.194 2.667-2.667 2.667v0z"></path>
+</symbol>
+<symbol id="icon-person" viewBox="0 0 32 32">
+<path d="M16 16c4.418 0 8-3.582 8-8s-3.582-8-8-8v0c-4.418 0-8 3.582-8 8s3.582 8 8 8v0zM16 21.333c-5.333 0-16 2.667-16 8l2.667 2.667h26.667l2.667-2.667c0-5.333-10.667-8-16-8z"></path>
+</symbol>
+<symbol id="icon-phone" viewBox="0 0 32 32">
+<path d="M29.538 22.154h-7.385l-4.923 2.462-9.846-9.846 2.462-4.923v-7.385l-2.462-2.462h-4.923l-2.462 2.462c0 17.231 12.308 29.538 29.538 29.538l2.462-2.462v-4.923l-2.462-2.462z"></path>
+</symbol>
+<symbol id="icon-icon_send" viewBox="0 0 38 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M38.4 0l-38.4 17.6 12.8 4.8 19.2-16-14.4 16v9.6l6.4-6.4 8 3.2 6.4-28.8z"></path>
+</symbol>
 <symbol id="icon-close-black" viewBox="0 0 32 32">
 <path d="M32 4l-4-4-12 12-12-12-4 4 12 12-12 12 4 4 12-12 12 12 4-4-12-12 12-12z"></path>
 </symbol>
