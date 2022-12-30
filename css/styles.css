@@ -707,10 +707,6 @@ justify-content: right;
 	border-radius: 4px;
 }
 
-.modal-input:focus+.input-icon {
-	fill: var(--primary-brand);
-}
-
 .name-input-icon {
 	position: absolute;
 	width: 12px;
@@ -734,6 +730,9 @@ justify-content: right;
 	bottom: 14px;
 	left: 19px;
 	transition: fill 250ms var(--timing-function);
+}
+.modal-input:focus+.name-input-icon, .modal-input:focus+.phone-input-icon, .modal-input:focus+.email-input-icon{
+	fill: var(--primary-brand);
 }
 .modal-label {
 	margin-bottom: 4px;
