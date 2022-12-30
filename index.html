@@ -379,14 +379,14 @@
 				</div>
 				<div class="footer-subscribe">
 					<p class="footer-soc-text list-text">Subscribe</p>
-					<div class="footer-subscribe-field">
+					<form class="footer-subscribe-field">
 						<input class="footer-input-email" type="email" name="email" placeholder="E-mail">
 						<button class="footer-submit-button " type="submit">Subscribe
 							<svg class="sub-icon">
 								<use href="./images/icons.svg#icon-icon_send"></use>
 							</svg>
 						</button>
-					</div>
+					</form>
 				</div>				
 			</div>
 		</footer>
@@ -403,7 +403,7 @@
 						<label class="modal-label" for="name">Name</label>
 						<div class="modal-icon">
 							<input class="modal-input" type="text" name="name" id="name" autocomplete="name">
-							<svg class="input-icon">
+							<svg class="name-input-icon">
 								<use href="./images/icons.svg#icon-person"></use>
 							</svg>
 						</div>
@@ -412,7 +412,7 @@
 						<label class="modal-label" for="phone">Phone</label>
 						<div class="modal-icon">
 							<input class="modal-input" type="tel" name="phone" id="phone" autocomplete="tel">
-							<svg class="input-icon">
+							<svg class="phone-input-icon">
 								<use href="./images/icons.svg#icon-phone"></use>
 							</svg>
 						</div>
@@ -421,7 +421,7 @@
 						<label class="modal-label" for="email">Email</label>
 						<div class="modal-icon">
 							<input class="modal-input" type="email" name="email" id="email" autocomplete="email">
-							<svg class="input-icon">
+							<svg class="email-input-icon">
 								<use href="./images/icons.svg#icon-email-modal"></use>
 							</svg>
 						</div>
@@ -430,15 +430,17 @@
 						<label class="modal-label" for="comment">Comment</label>
 						<textarea class="modal-comment" name="comment" id="comment" rows="7" placeholder="Text input"></textarea>
 					</div>
+				
+					<div class="modal-checkbox">
+						<input class="checkbox" type="checkbox" name="check" value="check" id="check">
+						<svg class="checkbox-checked" width="11" height="8">
+							<use class="checked" href="./images/icons.svg#icon-checkbox-checked"></use>
+						</svg>				
+						<label class="modal-checkbox-label" for="check">I accept the terms and conditions of the 
+							<a class="modal-policy" href="#">Privacy Policy</a></label>
+					</div>
+					<button class="button modal-button-submit" type="submit">Send</button>
 				</form>
-				<div class="modal-checkbox">
-					<input class="checkbox" type="checkbox" name="check" value="check" id="check">
-					<svg class="checkbox-checked">
-						<use href="./images/icons.svg#icon-checkbox-checked"></use>
-					</svg>				
-					<label class="modal-checkbox-label" for="check">I accept the terms and conditions of the <a class="modal-policy" href="#">Privacy Policy</a></label>
-				</div>
-				<button class="button modal-button-submit" type="submit">Send</button>
 			</div>
 		</div>
 		<script src="./js/modal.js"></script>
